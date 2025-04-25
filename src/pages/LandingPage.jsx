@@ -36,7 +36,7 @@ const LandingPage = ({ page }) => {
     <>
       <LandingHeader />
       <section id="banner" className="h-screen relative text-white">
-        <div className="absolute top-0 w-full h-full bg-secondary/90"></div>
+        <div className="absolute top-0 w-full h-full bg-black/50"></div>
         <img
           loading="lazy"
           src={bannerImg}
@@ -52,7 +52,7 @@ const LandingPage = ({ page }) => {
         >
           <p className="text-xl">
             Welcome to{" "}
-            <span className="text-primary font-semibold">AI Company</span>
+            <span className="text-white font-semibold">AI Company</span>
           </p>
           <h1 className="heading-1 text-stroke">
             {isWebLanding
@@ -133,18 +133,18 @@ const LandingPage = ({ page }) => {
           {services.map((service) => (
             <div
               data-aos="fade-up"
-              className="bg-tertiary items-center rounded-lg p-5 flex text-center flex-col"
+              className="bg-tertiary items-center rounded-lg p-5 flex text-center flex-col text-black"
             >
               <img
                 loading="lazy"
                 src={service.icon}
-                className="h-[3.5rem] md:h-[4.5rem] object-contain"
+                className="h-[3.5rem] md:h-[4.5rem] object-contain brightness-0"
                 alt={service.title}
                 width="100"
                 height="100"
               />
               <h6 className="text-xl font-medium mt-2">{service.title}</h6>
-              <p className="desc mt-2">{service.description}</p>
+              <p className="desc mt-2 !text-black">{service.description}</p>
             </div>
           ))}
         </div>

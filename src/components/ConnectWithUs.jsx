@@ -9,7 +9,7 @@ const ConnectWithUs = () => {
       className="py-[5rem] relative bg-center bg-cover min-h-[50vh]"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="absolute top-0 w-full h-full bg-secondary/90"></div>
+      <div className="absolute top-0 w-full h-full bg-black/60"></div>
       <div data-aos="fade-up" className="max-w-7xl mx-auto">
         <div
           className="mx-5 rounded-xl bg-center bg-cover relative"
