@@ -33,7 +33,7 @@ import AutoSnapMobileApp from "./assets/app-development-portfolio/AutoSnap-Mobil
 export { logoImg };
 
 export const companyDetails = {
-  phone: "+0000000000",
+  phone: "+91-9921961947",
   address: "ABC Street, City, Country",
   email: "abc@xyz.com",
   linkedin: "",

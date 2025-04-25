@@ -67,7 +67,7 @@ const AboutUs = () => {
                 Transforming Visions into Technological Reality
               </h2>
               <p className="desc">
-                At <b>AI Company</b>, we leverage the transformative power of
+                At <b> AsecentiQ AI</b>, we leverage the transformative power of
                 artificial intelligence to catalyse remarkable change across
                 industries. Our unwaveringcommitment to transparency and
                 reliability is what truly sets us apart in a crowded
@@ -98,7 +98,7 @@ const AboutUs = () => {
               className="flex h-full items-center md:items-start flex-col gap-7"
             >
               <p className="desc">
-                At <b>AI Company</b>, we don’t just build AI; we craft
+                At <b> AsecentiQ AI</b>, we don’t just build AI; we craft
                 intelligent ecosystems that evolve and thrive alongside your
                 business.
                 <br />
@@ -165,7 +165,7 @@ const AboutUs = () => {
               <SubHeading heading="Our Expert Team" />
               <h2 className="heading-2">Meet Our Team</h2>
               <p className="desc">
-                At <b>AI Company</b>, our team is at the heart of every
+                At <b> AsecentiQ AI</b>, our team is at the heart of every
                 solution we provide. Combining expertise, innovation, and a deep
                 commitment to client success, our professionals are dedicated to
                 transforming complex challenges into seamless experiences. From

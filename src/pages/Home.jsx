@@ -54,10 +54,10 @@ const Home = () => {
           <p className="sub-heading">
             Welcome to
             {/* <span className="text-primary font-semibold">
-              AI Company
+               AsecentiQ AI
             </span> */}
           </p>
-          <h1 className="heading text-stroke">AI Company</h1>
+          <h1 className="heading text-stroke"> AsecentiQ AI</h1>
           <p className="sub-heading">
             AI Meets Integrity - Empowering Innovation with Intelligence
           </p>
@@ -142,7 +142,7 @@ const Home = () => {
                 Transforming Visions into Reality
               </h2>
               <p className="desc">
-                At <b>AI Company</b>, we leverage the transformative power of
+                At <b> AsecentiQ AI</b>, we leverage the transformative power of
                 artificial intelligence to catalyze remarkable change across
                 industries. Our unwavering commitment to transparency and
                 reliability is what truly sets us apart in a crowded market
