@@ -36,6 +36,8 @@ export const companyDetails = {
   phone: "+91-9921961947",
   address: "ABC Street, City, Country",
   email: "abc@xyz.com",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=9921961947&text&type=phone_number&app_absent=0",
   linkedin: "",
   instagram: "",
   twitter: "",
