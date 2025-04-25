@@ -14,10 +14,12 @@ const OurValue = () => {
             <br /> Innovation in Our Spirit
           </h2>
           <p data-aos="fade-up" className="desc">
-            Our diverse expertise spans multiple industries, empowering
-            businesses of all sizes to harness the transformative power of AI
-            and unlock invaluable data-driven insights.
+            At AscentiQ AI, our values guide everything we do—from how we
+            collaborate with clients to how we innovate with purpose. These
+            principles drive us to deliver transformative technology solutions
+            that truly make a difference.
           </p>
+
           <div data-aos="fade-up" className="flex gap-5 mt-2">
             <div className="min-w-[4rem] h-[4rem] bg-primary rounded-full flex items-center justify-center">
               <img
@@ -28,12 +30,14 @@ const OurValue = () => {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <h6 className="text-lg font-medium">Innovation and Excellence</h6>
+              <h6 className="text-lg font-medium">Innovation</h6>
               <p className="desc">
-                Leading the future with cutting-edge solutions.
+                We're always exploring new ideas and technologies—staying ahead
+                to deliver smarter, better solutions.
               </p>
             </div>
           </div>
+
           <div data-aos="fade-up" className="flex gap-5">
             <div className="min-w-[4rem] h-[4rem] bg-primary rounded-full flex items-center justify-center">
               <img
@@ -44,23 +48,22 @@ const OurValue = () => {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <h6 className="text-lg font-medium">
-                Integrity and Transparency
-              </h6>
+              <h6 className="text-lg font-medium">Integrity</h6>
               <p className="desc">
-                Building trust, fostering relationships, and ensuring
-                accountability.
+                We believe in honesty and transparency—building trust through
+                every action and decision.
               </p>
             </div>
           </div>
         </div>
+
         <div
           data-aos="fade-up"
           className="bg-secondary/80 flex flex-col gap-6 h-full justify-center rounded-xl p-10"
         >
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">Web Development</p>
+              <p className="font-medium">Artificial Intelligence Development</p>
               <p className="font-medium">95%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
@@ -69,7 +72,9 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">App Development</p>
+              <p className="font-medium">
+                Data Analytics and Business Intelligence
+              </p>
               <p className="font-medium">98%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
@@ -78,7 +83,7 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">Cloud Migration Services</p>
+              <p className="font-medium">Mobile and Web Development</p>
               <p className="font-medium">92%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
@@ -87,7 +92,7 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">IT Consulting</p>
+              <p className="font-medium">Game Development</p>
               <p className="font-medium">90%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">

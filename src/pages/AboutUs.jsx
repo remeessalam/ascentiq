@@ -64,30 +64,39 @@ const AboutUs = () => {
                 />
               </div>
               <h2 className="heading-2 max-w-[60rem] mx-auto">
-                Transforming Visions into Technological Reality
+                Transforming Ideas into Reality with Technology
               </h2>
               <p className="desc">
-                At <b> AsecentiQ AI</b>, we leverage the transformative power of
-                artificial intelligence to catalyse remarkable change across
-                industries. Our unwaveringcommitment to transparency and
-                reliability is what truly sets us apart in a crowded
-                marketplace.
+                At <b>AscentiQ AI</b>, we’re more than a tech company—we're your
+                partner in digital transformation. With a team of passionate
+                innovators and creative thinkers, we deliver tailored solutions
+                in Artificial Intelligence, Data Analytics, Cloud Computing, Web
+                & App Development, Game Design, and more.
+                <br />
+                <br />
+                Our mission is simple: to help businesses like yours thrive in a
+                rapidly evolving digital world. Through collaboration,
+                innovation, and a relentless pursuit of excellence, we develop
+                solutions that drive real impact.
               </p>
             </div>
           </div>
         </div>
+
         <div data-aos="fade-up" className="mt-[2rem]">
-          <h2 className="text-xl font-medium">Where AI Meets Integrity</h2>
+          <h2 className="text-xl font-medium">
+            Where Technology Meets Integrity
+          </h2>
           <p className="desc mt-2">
-            Our innovative solutions are designed not just to meet the demands
-            of today but to anticipate the challenges of tomorrow, ensuring that
-            your business stays ahead of the curve. What drives us is our
-            steadfast adherence to ethical principles and integrity. We believe
-            that true innovation is grounded in responsibility, fostering trust
-            and long-term partnerships with our clients. Together, let’s unlock
-            the potential of AI and transform your vision into reality!
+            Every solution we build at <b>AscentiQ AI</b> is grounded in our
+            core values—integrity, transparency, and excellence. We believe that
+            innovation should be responsible and results should be measurable.
+            By fostering trust and long-term partnerships, we help businesses
+            not only solve today’s problems but also prepare for tomorrow’s
+            opportunities.
           </p>
         </div>
+
         <div className="mt-[3rem]">
           <h2 data-aos="fade-up" className="heading-2 text-center">
             Our Visionary Goals
@@ -98,20 +107,17 @@ const AboutUs = () => {
               className="flex h-full items-center md:items-start flex-col gap-7"
             >
               <p className="desc">
-                At <b> AsecentiQ AI</b>, we don’t just build AI; we craft
-                intelligent ecosystems that evolve and thrive alongside your
-                business.
+                Our vision at <b>AscentiQ AI</b> is to be the driving force
+                behind digital innovation— enabling businesses to lead, grow,
+                and adapt with confidence. We aim to deliver future-ready
+                solutions that empower organizations to thrive in a world shaped
+                by technology.
                 <br />
                 <br />
-                Situated in the heart of Bengaluru's vibrant innovation hub, our
-                dedicated team of tech-savvy engineers, data scientists, and AI
-                visionaries is driven by a singular mission: to redefine what’s
-                possible with artificial intelligence.
-                <br />
-                <br />
-                Our diverse expertise spans multiple industries, empowering
-                businesses of all sizes to harness the transformative power of
-                AI and unlock invaluable data-driven insights.
+                Whether you’re a startup aiming to scale or an enterprise
+                optimizing complex operations, our team of engineers, data
+                scientists, and business strategists are here to help you
+                harness the full potential of digital transformation.
               </p>
             </div>
             <div data-aos="fade-up" className="h-full">
@@ -125,6 +131,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
       <TrustWorthySection />
       <section className="wrapper py-[3rem] bg-tertiary">
         <div className="grid md:grid-cols-2 gap-10 mt-7">
@@ -141,19 +148,24 @@ const AboutUs = () => {
             className="flex items-center lg:items-start flex-col gap-7"
           >
             <p className="desc !text-black">
-              Our mission is to empower innovation through ethical AI, ensuring
-              that every technological advancement is firmly rooted in integrity
-              and responsibility. We recognize that innovation is not merely
-              about cutting-edge technology; it must also align with ethical
-              principles that enhance trust and accountability. As such, we are
-              dedicated to catalyzing transformative change across various
-              industries, leveraging the immense power of artificial
-              intelligence to tackle unique challenges and unlock new
-              opportunities for growth and efficiency.
+              At <b>AscentiQ AI</b>, our mission is to help businesses stay
+              ahead in an ever-evolving digital landscape by harnessing the best
+              of modern technology. We’re passionate about turning bold ideas
+              into impactful digital solutions—guided by integrity, innovation,
+              and a customer-first mindset.
+              <br />
+              <br />
+              Whether it’s building AI-driven tools, automating complex
+              workflows, or creating immersive digital experiences, we are
+              committed to delivering transformative results rooted in
+              responsibility and long-term value. Through collaboration and
+              creativity, we bring ideas to life and unlock the full potential
+              of every client’s vision.
             </p>
           </div>
         </div>
       </section>
+
       <WhyChooseUs />
       {/* <section className="text-white wrapper py-[3rem]">
         <div className="grid md:grid-cols-2 gap-10 mt-7">

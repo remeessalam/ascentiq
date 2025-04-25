@@ -137,14 +137,14 @@ export const testimonials = [
     name: "Jessica M.",
     position: "CEO, Tech Solutions Inc.",
     img: <FaUserTie />,
-    desc: "Working with Ascentiq AI has truly revolutionized the way we do business. Their AI solutions have streamlined many of our internal processes, allowing us to make data-driven decisions faster and more accurately.",
+    desc: "Working with AscentiQ AI has truly revolutionized the way we do business. Their AI solutions have streamlined many of our internal processes, allowing us to make data-driven decisions faster and more accurately.",
   },
   {
     id: 2,
     name: "Raj P.",
     position: "Head of Innovation, Retail World",
     img: <FaUserTie />,
-    desc: "We needed AI-powered tools to improve our customer interactions, and Ascentiq AI delivered. The impact of the AI implementation has been outstanding.",
+    desc: "We needed AI-powered tools to improve our customer interactions, and AscentiQ AI delivered. The impact of the AI implementation has been outstanding.",
   },
 
   // 2. Data Analytics and Business Intelligence
@@ -153,14 +153,14 @@ export const testimonials = [
     name: "Maria G.",
     position: "COO, Global Enterprises",
     img: <FaUserTie />,
-    desc: "The team at Ascentiq AI helped us unlock the true potential of our data. With actionable insights in an intuitive dashboard, we now adjust strategies in real-time.",
+    desc: "The team at AscentiQ AI helped us unlock the true potential of our data. With actionable insights in an intuitive dashboard, we now adjust strategies in real-time.",
   },
   {
     id: 4,
     name: "Thomas K.",
     position: "Director of Operations, Innovate Tech",
     img: <FaUserTie />,
-    desc: "We had a lot of data, but no way to use it effectively. Ascentiq AI provided BI tools that delivered insights into every aspect of our business.",
+    desc: "We had a lot of data, but no way to use it effectively. AscentiQ AI provided BI tools that delivered insights into every aspect of our business.",
   },
 
   // 3. Mobile and Web Development
@@ -176,7 +176,7 @@ export const testimonials = [
     name: "Daniel R.",
     position: "Founder, Quick Travel",
     img: <FaUserTie />,
-    desc: "Ascentiq AI helped us build an intuitive mobile app experience. The feedback from our users has been overwhelmingly positive.",
+    desc: "AscentiQ AI helped us build an intuitive mobile app experience. The feedback from our users has been overwhelmingly positive.",
   },
 
   // 4. Game Development
@@ -201,7 +201,7 @@ export const testimonials = [
     name: "David S.",
     position: "Customer Service Manager, eShop World",
     img: <FaUserTie />,
-    desc: "The chatbot Ascentiq AI built significantly improved our response time and reduced manual workloads for our support team.",
+    desc: "The chatbot AscentiQ AI built significantly improved our response time and reduced manual workloads for our support team.",
   },
   {
     id: 10,
@@ -217,14 +217,14 @@ export const testimonials = [
     name: "Jake P.",
     position: "Supply Chain Manager, Global Supplies",
     img: <FaUserTie />,
-    desc: "The predictive models built by Ascentiq AI help us forecast demand and optimize operations. The improvements are clearly visible.",
+    desc: "The predictive models built by AscentiQ AI help us forecast demand and optimize operations. The improvements are clearly visible.",
   },
   {
     id: 12,
     name: "Amanda T.",
     position: "Head of Marketing, Retail Innovations",
     img: <FaUserTie />,
-    desc: "Ascentiq AI guided us through machine learning model development. Now we predict customer behavior and optimize campaigns effectively.",
+    desc: "AscentiQ AI guided us through machine learning model development. Now we predict customer behavior and optimize campaigns effectively.",
   },
 
   // 7. Cloud Computing
@@ -240,7 +240,7 @@ export const testimonials = [
     name: "Steven J.",
     position: "CTO, SecureData Systems",
     img: <FaUserTie />,
-    desc: "With Ascentiq AI’s help, we migrated to the cloud efficiently. Reduced costs, increased capacity, and great ongoing support.",
+    desc: "With AscentiQ AI’s help, we migrated to the cloud efficiently. Reduced costs, increased capacity, and great ongoing support.",
   },
 
   // 8. Blockchain Development
@@ -249,7 +249,7 @@ export const testimonials = [
     name: "Harold B.",
     position: "Head of Operations, ChainLink Industries",
     img: <FaUserTie />,
-    desc: "Ascentiq AI’s blockchain solution improved our supply chain transparency and transaction security. Fully traceable and reliable.",
+    desc: "AscentiQ AI’s blockchain solution improved our supply chain transparency and transaction security. Fully traceable and reliable.",
   },
   {
     id: 16,
@@ -265,14 +265,14 @@ export const testimonials = [
     name: "John R.",
     position: "Operations Manager, FinTech Solutions",
     img: <FaUserTie />,
-    desc: "RPA bots from Ascentiq AI have reduced manual errors and streamlined our processes, resulting in major efficiency gains.",
+    desc: "RPA bots from AscentiQ AI have reduced manual errors and streamlined our processes, resulting in major efficiency gains.",
   },
   {
     id: 18,
     name: "Olivia F.",
     position: "CFO, Global Financial Partners",
     img: <FaUserTie />,
-    desc: "Our back-office automation is now faster and more accurate thanks to Ascentiq AI’s robust RPA solution and training support.",
+    desc: "Our back-office automation is now faster and more accurate thanks to AscentiQ AI’s robust RPA solution and training support.",
   },
 ];
 

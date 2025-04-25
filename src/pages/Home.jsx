@@ -139,23 +139,26 @@ const Home = () => {
                 />
               </div>
               <h2 className="heading-2 max-w-[60rem] mx-auto">
-                Transforming Visions into Reality
+                Transforming Ideas into Reality with Cutting-Edge Technologies
               </h2>
               <p className="desc">
-                At <b> AsecentiQ AI</b>, we leverage the transformative power of
-                artificial intelligence to catalyze remarkable change across
-                industries. Our unwavering commitment to transparency and
-                reliability is what truly sets us apart in a crowded market
-                place .We empower organizations with cutting-edge AI
-                technologies that elevate data-driven insights, streamline
-                complex processes, and ignite strategic growth.
+                At <b>AscentiQ AI</b>, we’re not just a technology provider –
+                we’re your innovation partner. With a team of passionate
+                problem-solvers and forward-thinking creatives, we specialize in
+                delivering high-end solutions that drive tangible results. From
+                Artificial Intelligence and Data Analytics to Web & Mobile
+                Development and Game Design, our mission is to help businesses
+                thrive in the digital age.
                 <br />
                 <br />
-                Our innovative solutions are designed not just to meet the
-                demands of today but to anticipate the challenges of tomorrow,
-                ensuring that your business stays ahead of the curve.
+                Whether you're aiming to automate processes, enhance user
+                experience, or scale with emerging technologies, we’re here to
+                guide you every step of the way. Our focus on quality,
+                collaboration, and tailored solutions ensures you’re not just
+                keeping up—you’re staying ahead.
               </p>
             </div>
+
             <div className="w-fit mt-4 justify-center lg:justify-start">
               <Link to="/about-us" className="primary-btn">
                 Know More
