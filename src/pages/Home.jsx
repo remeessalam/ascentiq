@@ -54,10 +54,10 @@ const Home = () => {
           <p className="sub-heading">
             Welcome to
             {/* <span className="text-primary font-semibold">
-               AsecentiQ AI
+               AscentiQ AI
             </span> */}
           </p>
-          <h1 className="heading text-stroke"> AsecentiQ AI</h1>
+          <h1 className="heading text-stroke"> AscentiQ AI</h1>
           <p className="sub-heading">
             AI Meets Integrity - Empowering Innovation with Intelligence
           </p>

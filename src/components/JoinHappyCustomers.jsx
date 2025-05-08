@@ -55,10 +55,10 @@ const JoinHappyCustomers = () => {
       className="py-[5rem] bg-center bg-cover relative text-white"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="absolute top-0 w-full h-full bg-tertiary/95"></div>
+      <div className="absolute top-0 w-full h-full bg-tertiarytwo/95"></div>
       <div className="relative z-10">
         <div data-aos="fade-up" data-aos-offset="-400" className="wrapper">
-          <h2 className="heading-2 max-w-[60rem] mx-auto text-center text-black">
+          <h2 className="heading-2 max-w-[60rem] mx-auto text-center text-white">
             Join Our <span className="text-secondary">100+</span> Happy Clients
           </h2>
         </div>

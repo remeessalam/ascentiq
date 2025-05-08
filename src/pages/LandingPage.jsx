@@ -52,7 +52,7 @@ const LandingPage = ({ page }) => {
         >
           <p className="text-xl">
             Welcome to{" "}
-            <span className="text-white font-semibold"> AsecentiQ AI</span>
+            <span className="text-white font-semibold"> AscentiQ AI</span>
           </p>
           <h1 className="heading-1 text-stroke">
             {isWebLanding

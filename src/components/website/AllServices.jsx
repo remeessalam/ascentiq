@@ -25,7 +25,7 @@ const AllServices = () => {
         {allServices.map((service) => (
           <div
             data-aos="fade-up"
-            className="bg-tertiary group hover:bg-secondary transition-all duration-300 rounded-lg p-5 flex text-center flex-col justify-between text-black"
+            className="bg-tertiarytwo group hover:bg-secondary/60 transition-all duration-300 rounded-lg p-5 flex text-center flex-col justify-between text-white "
           >
             <div className="flex flex-col items-center">
               <div className="bg-black text-white p-5 rounded-full ">
@@ -40,7 +40,7 @@ const AllServices = () => {
                 alt=""
               /> */}
               <h6 className="text-xl font-medium mt-2">{service.title}</h6>
-              <p className="desc mt-2 !text-black">{service.description}</p>
+              <p className="desc mt-2 !text-white/60 ">{service.description}</p>
             </div>
             <button
               onClick={() => handleSelectServiceToShowDetail(service)}

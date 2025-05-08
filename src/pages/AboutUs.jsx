@@ -177,7 +177,7 @@ const AboutUs = () => {
               <SubHeading heading="Our Expert Team" />
               <h2 className="heading-2">Meet Our Team</h2>
               <p className="desc">
-                At <b> AsecentiQ AI</b>, our team is at the heart of every
+                At <b> AscentiQ AI</b>, our team is at the heart of every
                 solution we provide. Combining expertise, innovation, and a deep
                 commitment to client success, our professionals are dedicated to
                 transforming complex challenges into seamless experiences. From

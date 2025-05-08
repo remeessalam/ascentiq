@@ -75,7 +75,8 @@ const LeadForm = () => {
       <form
         onSubmit={handleSubmit(handleFormSubmit)}
         data-aos="fade-up"
-        className="flex flex-col w-full gap-4 rounded-xl p-5 bg-tertiary max-w-3xl mx-auto mt-5 !text-black"
+        data-aos-offset="200"
+        className="flex flex-col w-full gap-4 rounded-xl p-5 bg-tertiarytwo max-w-3xl mx-auto mt-5 !text-white"
       >
         <div className="grid sm:grid-cols-2 gap-5">
           <div className="flex flex-col gap-1">
@@ -83,7 +84,7 @@ const LeadForm = () => {
             <input
               type="text"
               className="outline-none p-2 rounded-full bg-white/60 text-primary"
-              placeholder="Name"
+              // placeholder="Name"
               {...register("name", {
                 required: "Full name is required",
                 validate: (val) => {
@@ -102,7 +103,7 @@ const LeadForm = () => {
             <input
               type="email"
               className="outline-none p-2 rounded-full bg-white/60 text-primary"
-              placeholder="Email"
+              // placeholder="Email"
               {...register("email", {
                 required: "Email is required",
                 pattern: {
@@ -120,7 +121,7 @@ const LeadForm = () => {
             <input
               type="tel"
               className="outline-none p-2 rounded-full bg-white/60 text-primary"
-              placeholder="Phone Number"
+              // placeholder="Phone Number"
               {...register("phone", {
                 required: "Phone number is required",
                 pattern: {
@@ -136,7 +137,7 @@ const LeadForm = () => {
             <input
               type="text"
               className="outline-none p-2 rounded-full bg-white/60 text-primary"
-              placeholder="Subject"
+              // placeholder="Subject"
               {...register("subject", {
                 required: "Subject is required",
                 validate: (val) => {
@@ -156,7 +157,7 @@ const LeadForm = () => {
           <textarea
             rows="4"
             className="outline-none p-2 rounded-2xl bg-white/60 text-primary"
-            placeholder="Message"
+            // placeholder="Message"
             {...register("message", {
               required: "Message is required",
               validate: (val) => {

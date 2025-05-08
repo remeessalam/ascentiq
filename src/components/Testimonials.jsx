@@ -78,7 +78,7 @@ const Testimonials = () => {
         <div className="flex items-center gap-4 w-full">
           <div data-aos="fade-up">
             <button
-              className="text-white w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-secondary hover:bg-tertiary text-5xl transition-all duration-300 border-2 border-primary"
+              className="text-white w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-background hover:bg-tertiary text-5xl transition-all duration-300 border-2 border-primary"
               onClick={handlePrevClick}
               aria-label="Previous slide"
             >
@@ -89,9 +89,9 @@ const Testimonials = () => {
             {testimonials.map((item) => (
               <div
                 key={item.id}
-                className="keen-slider__slide text-center justify-between text-black p-5 bg-tertiary rounded-xl flex flex-col gap-4"
+                className="keen-slider__slide text-center justify-between text-white p-5 bg-tertiarytwo rounded-xl flex flex-col gap-4"
               >
-                <p className="italic desc !text-black">{item.desc}</p>
+                <p className="italic desc !text-white">{item.desc}</p>
                 <div className="flex flex-col gap-2 mt-2">
                   <div className="flex flex-col items-center gap-1 h-full">
                     <div className="text-2xl">{item.img}</div>
@@ -110,7 +110,7 @@ const Testimonials = () => {
           </div>
           <div data-aos="fade-up">
             <button
-              className="text-white w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-secondary hover:bg-tertiary text-5xl transition-all duration-300 border-2 border-primary"
+              className="text-white w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-background hover:bg-tertiary text-5xl transition-all duration-300 border-2 border-primary"
               onClick={handleNextClick}
               aria-label="Next slide"
             >
@@ -120,14 +120,14 @@ const Testimonials = () => {
         </div>
         <div data-aos="fade-up" className="flex items-center gap-5">
           <button
-            className="text-white w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-primary text-5xl transition-all duration-300 border-2 border-primary"
+            className="text-white w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-background text-5xl transition-all duration-300 border-2 border-primary"
             onClick={handlePrevClick}
             aria-label="Previous slide"
           >
             <ArrowLeft size={32} />
           </button>
           <button
-            className="text-white w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-primary text-5xl transition-all duration-300 border-2 border-primary"
+            className="text-white w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-background text-5xl transition-all duration-300 border-2 border-primary"
             onClick={handleNextClick}
             aria-label="Next slide"
           >
