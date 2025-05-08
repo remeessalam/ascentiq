@@ -281,132 +281,306 @@ export const testimonials = [
 
 // all services
 
+// export const allServicesss = [
+//   {
+//     id: 1,
+//     title: "Artificial Intelligence Development",
+//     description:
+//       "Discover the potential of AI with solutions tailored to enhance efficiency, automate tasks, and make intelligent decisions based on data.",
+//     icon: (
+//       <FaRobot
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "Artificial Intelligence is revolutionizing business operations by enabling smarter decision-making and process automation. Our AI development services focus on creating systems that learn from data and improve over time.\n\nAt the core of our AI solutions is machine learning, where we develop algorithms that can identify patterns in data and make predictions. We specialize in deep learning techniques that use neural networks to solve complex problems. Our natural language processing capabilities allow systems to understand and generate human language, while our computer vision solutions enable machines to interpret visual data.\n\nWe implement AI across various business functions including customer service automation, predictive maintenance, fraud detection, and personalized recommendations. Our approach combines cutting-edge AI research with practical business applications to deliver measurable results.",
+//   },
+//   {
+//     id: 2,
+//     title: "Data Analytics and Business Intelligence",
+//     description:
+//       "Transform raw data into actionable insights that empower informed decision-making and competitive advantage.",
+//     icon: (
+//       <FaChartLine
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "In today's data-driven world, the ability to extract meaningful insights from information is crucial for business success. Our data analytics services help organizations make sense of their data through advanced analytical techniques.\n\nWe implement comprehensive business intelligence solutions that include interactive dashboards, data visualization tools, and automated reporting systems. Our predictive analytics capabilities use statistical models and machine learning to forecast trends and behaviors. We specialize in data integration, combining information from multiple sources into a unified view for comprehensive analysis.\n\nOur team helps businesses establish key performance indicators (KPIs) and develop data governance frameworks to ensure data quality and consistency across the organization. We work with both structured and unstructured data, applying appropriate analytical methods to uncover hidden patterns and opportunities.",
+//   },
+//   {
+//     id: 3,
+//     title: "Mobile and Web Development",
+//     description:
+//       "Create responsive, user-friendly digital experiences that engage customers across all devices and platforms.",
+//     icon: (
+//       <FaMobileAlt
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "In the digital age, having a strong online presence is essential for business success. Our mobile and web development services create high-performance applications that deliver seamless user experiences.\n\nFor web development, we build responsive, SEO-friendly websites using modern frameworks like React, Angular, and Vue.js. Our e-commerce solutions include secure payment gateways, inventory management, and personalized shopping experiences. We implement progressive web apps (PWAs) that combine the best of web and mobile applications.\n\nOur mobile development expertise covers both native (iOS/Android) and cross-platform solutions using Flutter and React Native. We focus on intuitive UI/UX design, offline capabilities, and integration with device features like cameras and GPS. Performance optimization and security are prioritized in all our development projects.",
+//   },
+//   {
+//     id: 4,
+//     title: "Game Development",
+//     description:
+//       "Create immersive gaming experiences with stunning visuals and engaging gameplay across multiple platforms.",
+//     icon: (
+//       <FaGamepad
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "The gaming industry continues to evolve with new technologies and platforms. Our game development services cover the entire production lifecycle from concept to deployment.\n\nWe develop both 2D and 3D games using engines like Unity and Unreal, creating rich environments with realistic physics and animations. Our VR/AR solutions provide immersive experiences that blur the line between virtual and physical worlds. We specialize in multiplayer game development with secure networking and matchmaking systems.\n\nOur game design process focuses on creating compelling narratives, balanced gameplay mechanics, and rewarding progression systems. We optimize games for various platforms including mobile, PC, and consoles, ensuring smooth performance across different hardware specifications. Post-launch, we provide live operations support including updates, content additions, and community management.",
+//   },
+//   {
+//     id: 5,
+//     title: "Chatbot Development",
+//     description:
+//       "Enhance customer interactions with AI-powered chatbots that provide instant, personalized responses 24/7.",
+//     icon: (
+//       <FaCommentDots
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "Modern customer service requires instant, always-available support. Our chatbot solutions leverage natural language processing to understand and respond to user queries in human-like conversations.\n\nWe develop rule-based chatbots for simple FAQ interactions and AI-powered virtual assistants capable of handling complex dialogues. Our solutions integrate with popular messaging platforms like WhatsApp, Facebook Messenger, and website live chats. We implement sentiment analysis to detect customer emotions and route conversations appropriately.\n\nOur chatbots can access backend systems to perform tasks like order tracking, appointment scheduling, and account management. We include analytics dashboards to monitor chatbot performance, identify common queries, and continuously improve response accuracy. For voice interactions, we develop voice assistants with speech recognition and text-to-speech capabilities.",
+//   },
+//   {
+//     id: 6,
+//     title: "Machine Learning",
+//     description:
+//       "Implement intelligent systems that learn from data to automate processes, predict outcomes, and uncover insights.",
+//     icon: (
+//       <FaBrain
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "Machine learning is transforming industries by enabling systems to improve automatically through experience. Our ML services help businesses harness this powerful technology.\n\nWe develop supervised learning models for classification and regression problems, including image recognition, fraud detection, and demand forecasting. Our unsupervised learning solutions uncover hidden patterns in data through clustering and dimensionality reduction techniques. We implement reinforcement learning for systems that need to make sequences of decisions, such as recommendation engines.\n\nOur ML pipeline includes data preprocessing, feature engineering, model selection, and hyperparameter tuning. We focus on creating explainable AI models that provide transparency in their decision-making. For deployment, we implement MLOps practices to ensure models remain accurate as data evolves over time.",
+//   },
+//   {
+//     id: 7,
+//     title: "Cloud Computing",
+//     description:
+//       "Leverage scalable, secure cloud infrastructure to enhance business agility and reduce IT costs.",
+//     icon: (
+//       <FaCloud
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "Cloud computing provides the foundation for digital transformation. Our cloud services help businesses migrate, optimize, and manage their cloud infrastructure.\n\nWe offer cloud strategy consulting to determine the right mix of public, private, and hybrid cloud solutions. Our migration services ensure smooth transitions with minimal downtime, including lift-and-shift and cloud-native approaches. We implement Infrastructure as Code (IaC) for reproducible, version-controlled cloud environments.\n\nOur cloud management includes cost optimization, performance monitoring, and security hardening. We specialize in serverless architectures, containerization with Kubernetes, and CI/CD pipelines for automated deployments. Security is prioritized with identity management, encryption, and compliance frameworks tailored to industry requirements.",
+//   },
+//   {
+//     id: 8,
+//     title: "Blockchain Development",
+//     description:
+//       "Build secure, transparent decentralized applications leveraging distributed ledger technology.",
+//     icon: (
+//       <FaBitcoin
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "Blockchain technology enables trustless systems with immutable records. Our blockchain development services help businesses explore this transformative technology.\n\nWe develop smart contracts on platforms like Ethereum, Solana, and Hyperledger for automated, tamper-proof agreements. Our decentralized application (dApp) development includes frontend interfaces connected to blockchain backends via Web3.js or similar libraries. We create custom blockchain solutions for supply chain tracking, digital identity, and asset tokenization.\n\nOur cryptocurrency services include wallet development, exchange integrations, and token economics design. We implement security best practices to protect against vulnerabilities like reentrancy attacks and front-running. For enterprises, we develop permissioned blockchains with customized consensus mechanisms and governance models.",
+//   },
+//   {
+//     id: 9,
+//     title: "Robotic Process Automation (RPA)",
+//     description:
+//       "Automate repetitive tasks to improve efficiency, reduce errors, and free up human resources for higher-value work.",
+//     icon: (
+//       <FaCogs
+//         size={40}
+//         className="group-hover:scale-125 transition-all duration-300"
+//       />
+//     ),
+//     detailContent:
+//       "RPA technology allows businesses to automate rule-based processes without changing existing systems. Our RPA solutions deliver quick ROI by reducing manual effort.\n\nWe analyze business processes to identify automation opportunities with the highest impact. Our bots interact with applications through UI automation or API integrations, handling tasks like data entry, report generation, and system reconciliations. We implement attended automation for processes requiring human intervention and unattended automation for backend operations.\n\nOur intelligent automation solutions combine RPA with AI capabilities like document understanding and decision-making. We provide centralized bot orchestration with monitoring and exception handling. Post-implementation, we offer continuous improvement services to expand automation coverage as business needs evolve.",
+//   },
+// ];
+
 export const allServices = [
   {
     id: 1,
-    title: "Artificial Intelligence Development",
-    description:
-      "Discover the potential of AI with solutions tailored to enhance efficiency, automate tasks, and make intelligent decisions based on data.",
     icon: (
       <FaRobot
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "Artificial Intelligence is revolutionizing business operations by enabling smarter decision-making and process automation. Our AI development services focus on creating systems that learn from data and improve over time.\n\nAt the core of our AI solutions is machine learning, where we develop algorithms that can identify patterns in data and make predictions. We specialize in deep learning techniques that use neural networks to solve complex problems. Our natural language processing capabilities allow systems to understand and generate human language, while our computer vision solutions enable machines to interpret visual data.\n\nWe implement AI across various business functions including customer service automation, predictive maintenance, fraud detection, and personalized recommendations. Our approach combines cutting-edge AI research with practical business applications to deliver measurable results.",
+    title: "AI Solutions for Smarter Business",
+    description: `Artificial Intelligence is changing the way businesses operate, offering the potential to streamline processes and make smarter decisions. At AscentiQ AI, we create AI solutions that fit your business needs, helping you automate workflows, gain deeper insights from data, and improve overall efficiency.\n\nWhether you're looking to integrate AI-driven features into an existing system or build a completely new AI product, we offer tailored solutions that ensure your business leverages AI in the most effective way possible.`,
+    servicesIncluded: [
+      "Custom AI Solutions: Tailored AI systems built specifically to meet your business needs.",
+      "Machine Learning Models: Developing learning systems that improve over time through data analysis.",
+      "Natural Language Processing (NLP): Applications such as sentiment analysis, chatbots, and content moderation to understand and process human language.",
+      "Computer Vision: Advanced systems for tasks like facial recognition, defect detection, and visual data interpretation.",
+    ],
+    results: [
+      "Enhanced decision-making accuracy.",
+      "Cost savings through automation.",
+      "Improved customer experience via AI-driven personalization.",
+    ],
   },
   {
     id: 2,
-    title: "Data Analytics and Business Intelligence",
-    description:
-      "Transform raw data into actionable insights that empower informed decision-making and competitive advantage.",
     icon: (
       <FaChartLine
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "In today's data-driven world, the ability to extract meaningful insights from information is crucial for business success. Our data analytics services help organizations make sense of their data through advanced analytical techniques.\n\nWe implement comprehensive business intelligence solutions that include interactive dashboards, data visualization tools, and automated reporting systems. Our predictive analytics capabilities use statistical models and machine learning to forecast trends and behaviors. We specialize in data integration, combining information from multiple sources into a unified view for comprehensive analysis.\n\nOur team helps businesses establish key performance indicators (KPIs) and develop data governance frameworks to ensure data quality and consistency across the organization. We work with both structured and unstructured data, applying appropriate analytical methods to uncover hidden patterns and opportunities.",
+    title: "Data Analytics and Business Intelligence",
+    description: `In today's data-driven world, the ability to turn data into actionable insights is crucial. At AscentiQ AI, we help businesses unlock the power of their data. Our data analytics and business intelligence services provide you with the tools and insights to make smarter decisions, identify trends, and ultimately improve your bottom line.\n\nWe focus on transforming raw data into clear, easy-to-understand insights that guide your business strategies and actions. Whether it’s analyzing customer behavior or forecasting market trends, we give you the tools you need to stay ahead.`,
+    servicesIncluded: [
+      "Data Integration: Bringing together all your data into one unified system for better insights.",
+      "Data Visualization: Creating easy-to-read dashboards and reports for a clear understanding of your metrics.",
+      "Predictive Analytics: Using data to forecast future trends, helping you stay one step ahead.",
+      "Business Intelligence: Implementing BI tools that allow you to track key performance indicators (KPIs) and gain a deeper understanding of your operations.",
+    ],
   },
   {
     id: 3,
-    title: "Mobile and Web Development",
-    description:
-      "Create responsive, user-friendly digital experiences that engage customers across all devices and platforms.",
     icon: (
       <FaMobileAlt
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "In the digital age, having a strong online presence is essential for business success. Our mobile and web development services create high-performance applications that deliver seamless user experiences.\n\nFor web development, we build responsive, SEO-friendly websites using modern frameworks like React, Angular, and Vue.js. Our e-commerce solutions include secure payment gateways, inventory management, and personalized shopping experiences. We implement progressive web apps (PWAs) that combine the best of web and mobile applications.\n\nOur mobile development expertise covers both native (iOS/Android) and cross-platform solutions using Flutter and React Native. We focus on intuitive UI/UX design, offline capabilities, and integration with device features like cameras and GPS. Performance optimization and security are prioritized in all our development projects.",
+    title: "Mobile and Web Development",
+    description: `With customers constantly on the move, a mobile-friendly web presence is a must. At AscentiQ AI, we specialize in creating fast, responsive, and user-friendly web and mobile applications that deliver seamless experiences across all devices.\n\nFrom building engaging websites to developing mobile apps that perform under pressure, we ensure that every digital experience we create is optimized for performance, scalability, and user engagement.`,
+    servicesIncluded: [
+      "Custom Web Development: Designing websites that are visually appealing, fast, and optimized for any device.",
+      "Mobile App Development: Creating native and cross-platform mobile apps for iOS and Android that delight users.",
+      "E-commerce Solutions: Building secure, scalable online stores that drive sales and enhance customer experience.",
+      "UI/UX Design: Crafting intuitive interfaces that ensure your customers enjoy a smooth and engaging experience.",
+    ],
+    whyChooseUs: [
+      "Expertise in responsive design.",
+      "Proven track record in delivering high-performance applications.",
+    ],
   },
   {
     id: 4,
-    title: "Game Development",
-    description:
-      "Create immersive gaming experiences with stunning visuals and engaging gameplay across multiple platforms.",
     icon: (
       <FaGamepad
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "The gaming industry continues to evolve with new technologies and platforms. Our game development services cover the entire production lifecycle from concept to deployment.\n\nWe develop both 2D and 3D games using engines like Unity and Unreal, creating rich environments with realistic physics and animations. Our VR/AR solutions provide immersive experiences that blur the line between virtual and physical worlds. We specialize in multiplayer game development with secure networking and matchmaking systems.\n\nOur game design process focuses on creating compelling narratives, balanced gameplay mechanics, and rewarding progression systems. We optimize games for various platforms including mobile, PC, and consoles, ensuring smooth performance across different hardware specifications. Post-launch, we provide live operations support including updates, content additions, and community management.",
+    title: "Game Development",
+    description: `The gaming industry is thriving, and if you want to stay ahead, you need to create games that captivate and engage players. At AscentiQ AI, we specialize in developing high-quality games that deliver immersive experiences, whether it's for mobile, PC, or virtual reality platforms.\n\nFrom game design to deployment, we handle every aspect of the development process, ensuring your game stands out in a competitive market.`,
+    servicesIncluded: [
+      "2D & 3D Game Development: Building engaging games for any platform with stunning visuals and smooth gameplay.",
+      "Virtual Reality (VR) & Augmented Reality (AR): Creating immersive, next-level experiences using VR and AR technologies.",
+      "Game Design & Prototyping: Crafting game mechanics and interactive features that will engage players.",
+      "Cross-Platform Compatibility: Developing games that run seamlessly on mobile, PC, and consoles.",
+    ],
   },
   {
     id: 5,
-    title: "Chatbot Development",
-    description:
-      "Enhance customer interactions with AI-powered chatbots that provide instant, personalized responses 24/7.",
     icon: (
       <FaCommentDots
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "Modern customer service requires instant, always-available support. Our chatbot solutions leverage natural language processing to understand and respond to user queries in human-like conversations.\n\nWe develop rule-based chatbots for simple FAQ interactions and AI-powered virtual assistants capable of handling complex dialogues. Our solutions integrate with popular messaging platforms like WhatsApp, Facebook Messenger, and website live chats. We implement sentiment analysis to detect customer emotions and route conversations appropriately.\n\nOur chatbots can access backend systems to perform tasks like order tracking, appointment scheduling, and account management. We include analytics dashboards to monitor chatbot performance, identify common queries, and continuously improve response accuracy. For voice interactions, we develop voice assistants with speech recognition and text-to-speech capabilities.",
+    title: "Chatbot Development",
+    description: `Providing quick, efficient customer service is essential in today's fast-paced digital world. That’s where chatbots come in. At AscentiQ AI, we develop intelligent chatbots that automate customer interactions, improve engagement, and reduce the workload on your team.\n\nOur bots use AI and Natural Language Processing (NLP) to understand and respond to customer queries, providing a personalized, human-like interaction 24/7.`,
+    servicesIncluded: [
+      "Custom Chatbot Solutions: Developing chatbots tailored to your specific business and customer service needs.",
+      "AI-Powered Conversations: Building bots that understand and respond naturally to customer inquiries.",
+      "Multichannel Integration: Deploying chatbots across multiple platforms, including websites, social media, and mobile apps.",
+      "Analytics & Continuous Improvement: Monitoring chatbot performance and optimizing responses based on user interactions.",
+    ],
   },
   {
     id: 6,
-    title: "Machine Learning",
-    description:
-      "Implement intelligent systems that learn from data to automate processes, predict outcomes, and uncover insights.",
     icon: (
       <FaBrain
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "Machine learning is transforming industries by enabling systems to improve automatically through experience. Our ML services help businesses harness this powerful technology.\n\nWe develop supervised learning models for classification and regression problems, including image recognition, fraud detection, and demand forecasting. Our unsupervised learning solutions uncover hidden patterns in data through clustering and dimensionality reduction techniques. We implement reinforcement learning for systems that need to make sequences of decisions, such as recommendation engines.\n\nOur ML pipeline includes data preprocessing, feature engineering, model selection, and hyperparameter tuning. We focus on creating explainable AI models that provide transparency in their decision-making. For deployment, we implement MLOps practices to ensure models remain accurate as data evolves over time.",
+    title: "Machine Learning",
+    description: `Machine learning is at the heart of many of today’s most innovative applications, helping businesses make better predictions and decisions. At AscentiQ AI, we create machine learning models that enable your business to analyze data, predict trends, and automate processes, all while improving over time.\n\nFrom personalized recommendations to predictive analytics, we help businesses of all sizes harness the power of machine learning to solve complex problems and improve outcomes.`,
+    servicesIncluded: [
+      "Supervised & Unsupervised Learning: Building models that can classify data, detect anomalies, and predict future trends.",
+      "Reinforcement Learning: Developing models that learn through trial and error, improving their performance over time.",
+      "Predictive Analytics: Using machine learning to forecast market trends, customer behavior, and more.",
+      "Natural Language Processing (NLP): Building systems that can interpret, understand, and generate human language.",
+    ],
+    businessBenefits: [
+      "Accelerated decision-making.",
+      "Improved operational efficiency.",
+      "Data-driven insights that fuel growth.",
+    ],
   },
   {
     id: 7,
-    title: "Cloud Computing",
-    description:
-      "Leverage scalable, secure cloud infrastructure to enhance business agility and reduce IT costs.",
     icon: (
       <FaCloud
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "Cloud computing provides the foundation for digital transformation. Our cloud services help businesses migrate, optimize, and manage their cloud infrastructure.\n\nWe offer cloud strategy consulting to determine the right mix of public, private, and hybrid cloud solutions. Our migration services ensure smooth transitions with minimal downtime, including lift-and-shift and cloud-native approaches. We implement Infrastructure as Code (IaC) for reproducible, version-controlled cloud environments.\n\nOur cloud management includes cost optimization, performance monitoring, and security hardening. We specialize in serverless architectures, containerization with Kubernetes, and CI/CD pipelines for automated deployments. Security is prioritized with identity management, encryption, and compliance frameworks tailored to industry requirements.",
+    title: "Cloud Computing",
+    description: `The cloud is revolutionizing the way businesses store and manage data. At AscentiQ AI, we offer comprehensive cloud computing services that help you scale operations, enhance flexibility, and reduce costs. Whether you're moving to the cloud or optimizing your existing infrastructure, we’ve got you covered.\n\nOur cloud solutions are designed to help you run your business more efficiently and securely, with a focus on ensuring seamless integration with your existing systems.`,
+    servicesIncluded: [
+      "Cloud Migration: Helping businesses transition smoothly to the cloud with minimal downtime.",
+      "Cloud Infrastructure Management: Ensuring your cloud environment runs smoothly, securely, and cost-effectively.",
+      "DevOps: Implementing practices that streamline your development and deployment processes.",
+      "Cloud Security: Safeguarding your data with the latest in cloud security protocols and best practices.",
+    ],
+    whatSetsUsApart: [
+      "Expertise in hybrid and multi-cloud strategies.",
+      "Proven success in minimizing downtime during migrations.",
+    ],
   },
   {
     id: 8,
-    title: "Blockchain Development",
-    description:
-      "Build secure, transparent decentralized applications leveraging distributed ledger technology.",
     icon: (
       <FaBitcoin
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "Blockchain technology enables trustless systems with immutable records. Our blockchain development services help businesses explore this transformative technology.\n\nWe develop smart contracts on platforms like Ethereum, Solana, and Hyperledger for automated, tamper-proof agreements. Our decentralized application (dApp) development includes frontend interfaces connected to blockchain backends via Web3.js or similar libraries. We create custom blockchain solutions for supply chain tracking, digital identity, and asset tokenization.\n\nOur cryptocurrency services include wallet development, exchange integrations, and token economics design. We implement security best practices to protect against vulnerabilities like reentrancy attacks and front-running. For enterprises, we develop permissioned blockchains with customized consensus mechanisms and governance models.",
+    title: "Blockchain Development",
+    description: `Blockchain technology is changing the way businesses handle data, offering a more secure, transparent, and efficient way to store and manage information. At AscentiQ AI, we specialize in developing blockchain solutions that can help you create decentralized applications, build smart contracts, and ensure secure transactions.\n\nWhether you're looking to build a cryptocurrency platform, explore supply chain tracking, or use smart contracts for automation, we provide blockchain development that fits your needs.`,
+    servicesIncluded: [
+      "Smart Contracts: Automating agreements with secure, self-executing contracts.",
+      "Cryptocurrency Platform Development: Building digital currency platforms and secure wallets.",
+      "Decentralized Apps (dApps): Developing apps that run on blockchain, enhancing security and transparency.",
+      "Blockchain Consulting: Offering expert advice on how blockchain can optimize your business operations.",
+    ],
   },
   {
     id: 9,
-    title: "Robotic Process Automation (RPA)",
-    description:
-      "Automate repetitive tasks to improve efficiency, reduce errors, and free up human resources for higher-value work.",
     icon: (
       <FaCogs
         size={40}
         className="group-hover:scale-125 transition-all duration-300"
       />
     ),
-    detailContent:
-      "RPA technology allows businesses to automate rule-based processes without changing existing systems. Our RPA solutions deliver quick ROI by reducing manual effort.\n\nWe analyze business processes to identify automation opportunities with the highest impact. Our bots interact with applications through UI automation or API integrations, handling tasks like data entry, report generation, and system reconciliations. We implement attended automation for processes requiring human intervention and unattended automation for backend operations.\n\nOur intelligent automation solutions combine RPA with AI capabilities like document understanding and decision-making. We provide centralized bot orchestration with monitoring and exception handling. Post-implementation, we offer continuous improvement services to expand automation coverage as business needs evolve.",
+    title: "Robotic Process Automation (RPA)",
+    description: `Robotic Process Automation (RPA) is transforming how businesses operate by automating repetitive tasks, reducing errors, and increasing efficiency. At AscentiQ AI, we specialize in designing RPA solutions that integrate seamlessly with your existing systems to automate manual workflows.\n\nOur RPA solutions help businesses reduce operational costs, improve service delivery, and free up resources for more strategic tasks.`,
+    servicesIncluded: [
+      "Process Automation: Identifying and automating routine tasks that consume valuable time.",
+      "RPA Consulting: Helping you assess which processes to automate and develop a strategy to do so.",
+      "Intelligent Automation: Adding AI to RPA for more advanced, adaptive automation solutions.",
+      "End-to-End RPA Solutions: From implementation to ongoing maintenance and optimization, we ensure RPA works seamlessly within your organization.",
+    ],
   },
 ];
 

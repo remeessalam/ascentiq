@@ -40,7 +40,9 @@ const AllServices = () => {
                 alt=""
               /> */}
               <h6 className="text-xl font-medium mt-2">{service.title}</h6>
-              <p className="desc mt-2 !text-white/60 ">{service.description}</p>
+              <p className="desc mt-2 !text-white/60 line-clamp-4">
+                {service.description}
+              </p>
             </div>
             <button
               onClick={() => handleSelectServiceToShowDetail(service)}
@@ -55,7 +57,7 @@ const AllServices = () => {
         open={isOpen}
         onClose={() => setIsOpen(false)}
         direction="top"
-        className="p-4 z-10 w-screen"
+        className="p-4 z-10 w-full lg:w-[60%] overflow-y-auto bg-black text-white"
         lockBackgroundScroll
       >
         <div className="mb-3 flex items-center justify-end pr-[.7rem] py-[.4rem]">
@@ -66,11 +68,67 @@ const AllServices = () => {
             <X size={30} />
           </button>
         </div>
-        <div className="wrapper flex flex-col gap-6 tex-white pb-[2rem]">
-          <h1 className="heading-2">{selectedService.title}</h1>
+
+        <div className="wrapper flex flex-col gap-6 pb-[2rem]">
+          <h2 className="heading-2">{selectedService?.title}</h2>
           <p className="desc whitespace-pre-line">
-            {selectedService.detailContent}
+            {selectedService?.description}
           </p>
+
+          {selectedService?.servicesIncluded && (
+            <div>
+              <h3 className="text-lg font-semibold">Services Included:</h3>
+              <ul className="list-disc ml-6 space-y-2">
+                {selectedService.servicesIncluded.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {selectedService?.results && (
+            <div>
+              <h3 className="text-lg font-semibold">Results:</h3>
+              <ul className="list-disc ml-6 space-y-2">
+                {selectedService.results.map((result, index) => (
+                  <li key={index}>{result}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {selectedService?.whyChooseUs && (
+            <div>
+              <h3 className="text-lg font-semibold">Why Choose Us:</h3>
+              <ul className="list-disc ml-6 space-y-2">
+                {selectedService.whyChooseUs.map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {selectedService?.whatSetsUsApart && (
+            <div>
+              <h3 className="text-lg font-semibold">What Sets Us Apart:</h3>
+              <ul className="list-disc ml-6 space-y-2">
+                {selectedService.whatSetsUsApart.map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {selectedService?.businessBenefits && (
+            <div>
+              <h3 className="text-lg font-semibold">Business Benefits:</h3>
+              <ul className="list-disc ml-6 space-y-2">
+                {selectedService.businessBenefits.map((benefit, index) => (
+                  <li key={index}>{benefit}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </Drawer>
     </section>
