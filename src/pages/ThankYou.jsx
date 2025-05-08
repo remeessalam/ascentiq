@@ -15,7 +15,7 @@ const ThankYou = () => {
   return (
     <>
       <div className="h-[calc(100vh-18rem)] flex flex-col items-center justify-center">
-        <div className="py-4 sticky top-0 w-full bg-secondary/60 backdrop-blur-md z-50 text-white">
+        <div className="py-4 sticky top-0 w-full bg-secondarytwo/60 backdrop-blur-md z-50 text-white">
           <div className="wrapper flex justify-between items-center gap-10">
             <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
               <Link smooth={true} to="/" className="cursor-pointer">
