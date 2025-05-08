@@ -133,7 +133,7 @@ const AboutUs = () => {
       </section>
 
       <TrustWorthySection />
-      <section className="wrapper py-[3rem] bg-tertiary">
+      <section className="wrapper py-[3rem] bg-tertiarytwo">
         <div className="grid md:grid-cols-2 gap-10 mt-7">
           <div data-aos="fade-up" className="h-full">
             <img
@@ -147,7 +147,7 @@ const AboutUs = () => {
             data-aos="fade-up"
             className="flex items-center lg:items-start flex-col gap-7"
           >
-            <p className="desc !text-black">
+            <p className="desc ">
               At <b>AscentiQ AI</b>, our mission is to help businesses stay
               ahead in an ever-evolving digital landscape by harnessing the best
               of modern technology. We’re passionate about turning bold ideas

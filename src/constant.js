@@ -33,6 +33,7 @@ import AutoSnapMobileApp from "./assets/app-development-portfolio/AutoSnap-Mobil
 export { logoImg };
 
 export const companyDetails = {
+  name: "AscentiQ AI",
   phone: "+91-9921961947",
   address: "ABC Street, City, Country",
   email: "abc@xyz.com",
