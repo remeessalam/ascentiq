@@ -14,7 +14,7 @@ const AllServices = () => {
   };
   return (
     <section className="wrapper py-[5rem] flex flex-col gap-5 items-center">
-      <SubHeading heading="Our Services" />
+      {/* <SubHeading heading="Our Services" /> */}
       <h2
         data-aos="fade-up"
         className="heading-2 max-w-[60rem] mx-auto text-center"
@@ -25,7 +25,7 @@ const AllServices = () => {
         {allServices.map((service) => (
           <div
             data-aos="fade-up"
-            className="bg-tertiarytwo group hover:bg-secondary/60 transition-all duration-300 rounded-lg p-5 flex text-center flex-col justify-between text-white "
+            className="bg-tertiarytwo group hover:bg-secondary transition-all duration-300 rounded-lg p-5 flex text-center flex-col justify-between text-white "
           >
             <div className="flex flex-col items-center">
               <div className="bg-black text-white p-5 rounded-full ">

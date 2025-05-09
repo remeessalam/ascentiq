@@ -68,12 +68,12 @@ const ThankYou = () => {
               >
                 <Instagram strokeWidth={1.5} size={20} />
               </Link>
-              <Link
+              {/* <Link
                 to={companyDetails.twitter}
                 className="w-[2rem] h-[2rem] rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
               >
                 <Twitter strokeWidth={1.5} size={20} />
-              </Link>
+              </Link> */}
               <Link
                 to={companyDetails.linkedin}
                 className="w-[2rem] h-[2rem] rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"

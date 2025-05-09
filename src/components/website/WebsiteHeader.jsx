@@ -42,7 +42,7 @@ const WebsiteHeader = () => {
               .map((option) => (
                 <Link
                   to={`${option.path}`}
-                  className={`text-sm link ${
+                  className={`text-base link ${
                     option.path === pathname && "text-secondary font-medium"
                   }`}
                   key={option.path}
@@ -52,7 +52,7 @@ const WebsiteHeader = () => {
               ))}
             <Link
               to="/contact-us"
-              className="primary-btn"
+              className="primary-btn !text-base"
               spy={true}
               smooth={true}
               offset={-60}

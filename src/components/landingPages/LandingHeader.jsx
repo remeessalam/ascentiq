@@ -60,7 +60,7 @@ const LandingHeader = () => {
               .map((option) => (
                 <Link
                   to={`${option.path}`}
-                  className="link text-sm"
+                  className="link text-base"
                   key={option.path}
                   spy={true}
                   smooth={true}
@@ -73,7 +73,7 @@ const LandingHeader = () => {
               ))}
             <Link
               to="contact"
-              className="primary-btn"
+              className="primary-btn !text-base"
               spy={true}
               smooth={true}
               offset={-60}

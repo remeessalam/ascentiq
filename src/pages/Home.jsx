@@ -51,14 +51,17 @@ const Home = () => {
           data-aos="fade-up"
           className="wrapper text-center flex flex-col gap-5 justify-center items-center h-full relative z-10"
         >
-          <p className="sub-heading">
+          <p className="sub-heading !text-[2rem] !font-bold">
             Welcome to
             {/* <span className="text-primary font-semibold">
                AscentiQ AI
             </span> */}
           </p>
-          <h1 className="heading text-stroke"> AscentiQ AI</h1>
-          <p className="sub-heading">
+          <h1 className="heading  !text-white ">
+            {" "}
+            AscentiQ <span className="!text-[#e6b02b]">AI</span>
+          </h1>
+          <p className="sub-heading !text-[2rem]">
             AI Meets Integrity - Empowering Innovation with Intelligence
           </p>
         </div>

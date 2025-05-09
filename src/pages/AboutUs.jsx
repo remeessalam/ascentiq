@@ -35,7 +35,12 @@ const AboutUs = () => {
   return (
     <>
       <WebsiteHeader />
-      <PageBanner title="About Us" />
+      <PageBanner
+        title="About Us"
+        desc={
+          "Transform your business with AscentiQ AI—where innovation meets digital excellence. From AI and Data Analytics to Web, App, and Game Development, we deliver impactful solutions tailored to your needs."
+        }
+      />
       <section className="text-white wrapper py-[3rem]">
         <div className="grid lg:grid-cols-2 gap-10 mt-7">
           <div data-aos="fade-up" className="hidden lg:block h-full">
@@ -51,7 +56,7 @@ const AboutUs = () => {
             className="flex h-full items-center lg:items-start flex-col gap-7"
           >
             <div className="flex flex-col items-center lg:items-start gap-5">
-              <SubHeading heading="About Us" />
+              {/* <SubHeading heading="About Us" /> */}
               <div
                 data-aos="fade-up"
                 className="h-[20em] sm:h-[25rem] lg:hidden mb-4 w-full"
