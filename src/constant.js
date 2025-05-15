@@ -37,7 +37,7 @@ export const companyDetails = {
   phone: "+91-9921961947",
   address:
     "Unit 01, Oxford Towers, 139, HAL Old Airport RD Kodihalli, Bangalore,Karnataka,560008 India",
-  email: "abc@xyz.com",
+  email: "Info@ascentiqai.com",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=9921961947&text&type=phone_number&app_absent=0",
   linkedin: "https://www.linkedin.com/company/ascentiq4ai/",
